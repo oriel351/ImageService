@@ -30,6 +30,7 @@ namespace GUI.Model
             {
                 logs = new ObservableCollection<LogObject>();
               //  this._logClient = ClientGUI.Instance;
+              //asdasd
                 if (this.logClient.Running())
                 {
                     this.logClient.UpdateEvent += this.Updater;
