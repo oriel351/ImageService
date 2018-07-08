@@ -9,6 +9,7 @@ namespace GUI.Model
 {
     interface ILogsModel : INotifyPropertyChanged
     {
+        // added branch
         ObservableCollection<MessageRecievedEventArgs> LogEntries { get; set; }
     }
 }
