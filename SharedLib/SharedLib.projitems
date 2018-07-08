@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>834bc390-ca01-4ad9-9395-24d768b8cbcd</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedLib</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ConfigData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Event\CommandRecievedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Event\DirectoryCloseEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Enums\CommandEnum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MessageRecievedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Enums\MessageTypeEnum.cs" />
+  </ItemGroup>
+</Project>
